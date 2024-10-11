@@ -1,0 +1,59 @@
+[
+  {
+    "id": "SPF19098",
+    "genus": "Leiothrix",
+    "species": "affinis ",
+    "family": "Eriocaulaceae",
+    "collectors": "Sano, PT",
+    "location": "Parque Estadual da Serra do Cipó, MG",
+    "country": "BR",
+    "coordinates": {
+      "lat": "-19.352856467324447",
+      "long": "-43.621041982064185"
+    },
+    "collectionDate": "1998-07-22",
+    "isType": false,
+    "kindOfType": null,
+    "identified": true,
+    "identifier": "F Silveira",
+    "identificationDate": null
+  },
+  {
+    "id": "SPF201589",
+    "genus": "Actinocephalus",
+    "species": "polyanthus",
+    "family": "Eriocaulaceae",
+    "collectors": "Müller, G; Sano P",
+    "location": "Parque Estadual da Serra do Cipó, MG",
+    "country": "BR",
+    "coordinates": {
+      "lat": "-19.354257609853125",
+      "long": "-43.57148350206698"
+    },
+    "collectionDate": "2005-12-03",
+    "isType": false,
+    "kindOfType": null,
+    "identified": true,
+    "identifier": "PT Sano",
+    "identificationDate": "2015-01-17"
+  },
+  {
+    "id": "SPF173300",
+    "genus": "Actinocephalus",
+    "species": "deflexus",
+    "family": "Eriocaulaceae",
+    "collectors": "Costa, FN; Fiaschi, P",
+    "location": "Serra do Cipó, MG",
+    "country": "BR",
+    "coordinates": {
+      "lat": "-18.95",
+      "long": "-43.766667"
+    },
+    "collectionDate": "2000-06-20",
+    "isType": true,
+    "kindOfType": "holotype",
+    "identified": true,
+    "identifier": "F.N. Costa",
+    "identificationDate": null
+  }
+]
