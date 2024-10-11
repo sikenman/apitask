@@ -30,7 +30,28 @@ namespace WebApi.Controllers
             var products = _productService.GetProductsInApprovalQueue();
             return Ok(products);
         }
+        
+        [HttpGet("json")]
+        public IActionResult ReadJsonWithNewtonsoft()
+        {
+            using StreamReader reader = new(_sampleJsonFilePath);
+            var json = reader.ReadToEnd();
+            List<Animal> animals = JsonConvert.DeserializeObject<List<Animal>>(json);
 
+            return Ok(animals);
+        }
+
+        [HttpGet("json/{id}")]
+        public IActionResult ReadJsonWithNewtonsoftWithID(string id)
+        {
+            using StreamReader reader = new(_sampleJsonFilePath);
+            var json = reader.ReadToEnd();
+            List<Animal> animals = JsonConvert.DeserializeObject<List<Animal>>(json);
+
+            var filteredAnimals = animals?.Where(animal => animal.id == id);
+            return Ok(filteredAnimals);
+        }
+        
         [HttpPost]
         public IActionResult CreateProduct([FromBody] Product product)
         {
