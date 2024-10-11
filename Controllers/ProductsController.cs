@@ -9,7 +9,8 @@ namespace WebApi.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly InMemoryProductService _productService = new();
-
+        private readonly String _sampleJsonFilePath = @".\Data\data1.json";    //json file location
+        
         [HttpGet]
         public IActionResult GetProducts()
         {
