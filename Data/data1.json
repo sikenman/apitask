@@ -9,7 +9,7 @@
     "country": "BR",
     "coordinates": {
       "lat": "-19.352856467324447",
-      "long": "-43.621041982064185"
+      "lng": "-43.621041982064185"
     },
     "collectionDate": "1998-07-22",
     "isType": false,
@@ -28,7 +28,7 @@
     "country": "BR",
     "coordinates": {
       "lat": "-19.354257609853125",
-      "long": "-43.57148350206698"
+      "lng": "-43.57148350206698"
     },
     "collectionDate": "2005-12-03",
     "isType": false,
@@ -47,7 +47,7 @@
     "country": "BR",
     "coordinates": {
       "lat": "-18.95",
-      "long": "-43.766667"
+      "lng": "-43.766667"
     },
     "collectionDate": "2000-06-20",
     "isType": true,
