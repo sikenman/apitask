@@ -4,8 +4,8 @@ namespace WebApi.Model
 {
     public class Coordinates
     {
-        public long? latitude { get; set; }
-        public long? longitude { get; set; }
+        public decimal? lat { get; set; }
+        public decimal? lng { get; set; }
     }
 
     public class Animal
